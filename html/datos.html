@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramones-About</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+        <div class="menu">
+            <div class="logo-y-menu">
+                <img src="../img/Logo.png" alt="">
+                <img class="menu-icon" src="../img/icono.png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/discografia.html">Discografia</a></li>
+                    <li><a href="">Acerca de la banda</a></li>
+                    <li><a href="../html/galeria.html">Galeria</a></li>
+                    <li><a class="boton-oculto" href="../html/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class="boton">
+                <a href="/html/contacto.html">Contacto</a>
+            </div>
+        </div>
+        <div class="titular">
+            <h1>Johnny, Joey, Dee Dee y Tommy <span class="rosa">Ramone</span>
+                 </h1>   
+        </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="contenedor">
+            <h4>Integrantes</h4>
+            <div class="contenedor-textos">
+            <div class="texto-izquierda">
+                <h2>Joey Ramone</h2>
+                <img class="Integrantes" src="../img/joey.jpg" alt="">
+                <p>Joey Ramone (Jeffrey Hyman): Vocalista y cofundador de la banda. Con su
+                    distintiva voz nasal, fue una figura icónica del punk rock.</p>
+            </div>
+            <div class="texto-derecha">
+                <h2>Johhny Ramone</h2>
+                <p>Johnny Ramone (John Cummings): Guitarrista y miembro fundador. Conocido por su estilo de tocar la guitarra de forma rápida
+                 y directa, fue un elemento clave en el sonido característico de los Ramones.</p>
+                <img class="Integrantes" src="../img/Johnny.jpg" alt="">
+            </div>
+            <div class="texto-izquierda">
+                <h2>Dee Dee Ramone</h2>
+                <img class="Integrantes" src="../img/deedee.png" alt="">
+                <p>Dee Dee Ramone (Douglas Colvin): Bajista y letrista principal. Contribuyó significativamente a la imagen y
+                    actitud punk de la banda, además de componer muchas de sus canciones más emblemáticas.</p>
+            </div>
+            <div class="texto-derecha">
+                <h2>Tommy Ramone</h2>
+                <p>Tommy Ramone (Tom Erdelyi): Baterista original y luego productor. Fue el primer baterista
+                    de la banda y también se desempeñó como productor en algunos de sus álbumes.</p>
+                <img class="Integrantes" src="../img/tommy.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="about">
+        <div class="contenedor">
+            <h4>Acerca de la banda</h4>
+            <div class="contenedor-textos">
+                <div class="texto-izquierda">
+                    <h2>Historia del grupo</h2>
+                    <img src="../img/inicios.jpg" alt="">
+                    <p>Los Ramones fueron una influyente banda de punk rock formada en Nueva York en 1974. Con un sonido rápido, 
+                    simple y enérgico, lanzaron su álbum debut homónimo en 1976, que marcó el inicio
+                    del movimiento punk en Estados Unidos.  
+                    A pesar de no lograr un gran éxito comercial durante su existencia, son considerados una de las bandas más importantes e influyentes en
+                    la historia del rock. La formación original 
+                    incluía a Joey Ramone, Johnny Ramone, Dee Dee Ramone y Tommy Ramone.</p>
+                </div>
+                <div class="texto-derecha">
+                    <h2>Repercusion</h2>
+                    <p>Los Ramones han tenido una gran influencia en la escena musical, especialmente en el género punk rock. Algunas bandas que han sido influenciadas por los Ramones incluyen:
+                        The Misfits, Green Day, The Offspring, Rancid, Blink-182, NOFX, The Queers, Screeching Weasel, Descendents, Bad Religion
+                        Estas bandas han adoptado elementos del estilo de los Ramones en su música y han contribuido a mantener viva la influencia del punk rock en diversas épocas y escenas musicales.</p>
+                    <img class="concierto" src="../img/argentina.jpg" alt="">
+                </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+
+        $(document).ready(function(){
+            $('.menu-icon').click(function(){
+                $('header nav').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>

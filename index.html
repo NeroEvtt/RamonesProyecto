@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramones</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+        <div class="menu">
+            <div class="logo-y-menu">
+                <img src="img/Logo.png" alt="">
+                <img class="menu-icon" src="img/icono.png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/html/discografia.html">Discografia</a></li>
+                    <li><a href="/html/datos.html">Acerca de la banda</a></li>
+                    <li><a href="/html/galeria.html">Galeria</a></li>
+                    <li><a class="boton-oculto" href="/html/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class="boton">
+                <a href="./html/contacto.html">Contacto</a>
+            </div>
+        </div>
+        <div class="titular">
+            <h1>The Ramones fue una banda <br>de <span class="rosa"> Punk Rock </span>
+                originada en Forest Hills
+                 </h1>
+            <div class="botones">
+                <a target="_blank" href="https://twitter.com/RamonesOfficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="bi bi-twitter-x"></i></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCSrA5JaXpR21z_E1FDA03RA" class="blanco"><i class="bi bi-youtube"></i></a>
+            </div>     
+        </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="contenedor">
+            <h4>Mayores exitos</h4>
+            <div class="contenedor-textos">
+            <div class="texto-izquierda">
+                <h2>Blitzkrieg Bop</h2>
+                <p>"Blitzkrieg Bop" de Ramones, lanzada en 1976, es un himno punk escrito por Joey, Dee Dee y Tommy Ramone. Conocida por su energía y el icónico grito inicial
+                     "Hey ho, let's go!", es una canción clave en la historia del punk rock.</p>
+                <audio controls>
+                    <source src="/audio/01 Blitzkrieg Bop.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="texto-derecha">
+                <h2>I Wanna Be Sedated</h2>
+                <p>"I Wanna Be Sedated" de Ramones fue escrita por Joey Ramone y lanzada en 1978 en el álbum "Road to Ruin". La canción fue inspirada por la fatiga y el deseo de Joey
+                     de escapar del agotamiento durante una gira. Se ha convertido en un himno punk clásico.</p>
+                     <audio controls>
+                        <source src="/audio/Ramones - I Wanna Be Sedated.mp3" type="audio/mpeg">
+                    </audio>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+
+        $(document).ready(function(){
+            $('.menu-icon').click(function(){
+                $('header nav').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
